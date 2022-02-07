@@ -9,20 +9,15 @@
 	</parent>
 
 	<groupId>com.virtual-mattress</groupId>
-	<artifactId>virtual-mattress-expense</artifactId>
+	<artifactId>virtual-mattress-sheet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>virtual-mattress-expense</name>
-	<description>Virtual Mattress Expense module</description>
+	<name>virtual-mattress-sheet</name>
+	<description>Virtual Mattress sheet module</description>
 	<properties>
 		<java.version>11</java.version>
 		<kotlin.version>1.6.10</kotlin.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.virtual-mattress</groupId>
-			<artifactId>virtual-mattress-sheet</artifactId>
-			<version>${project.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -34,10 +29,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>

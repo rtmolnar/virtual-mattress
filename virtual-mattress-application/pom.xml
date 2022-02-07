@@ -13,9 +13,19 @@
     <name>virtual-mattress-application</name>
     <properties>
         <java.version>11</java.version>
-        <kotlin.version>1.4.31</kotlin.version>
+        <kotlin.version>1.6.10</kotlin.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.virtual-mattress</groupId>
+            <artifactId>virtual-mattress-sheet</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.virtual-mattress</groupId>
+            <artifactId>virtual-mattress-expense</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-kotlin</artifactId>
