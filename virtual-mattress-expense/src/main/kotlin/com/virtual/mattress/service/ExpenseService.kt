@@ -36,7 +36,8 @@ class ExpenseService(
   }
 
   fun getBySheetId(sheetId: Long, pagination: Pageable): Page<ExpenseView> {
-    val expenses = expenseRepository.findBySheet(sheetId, pagination)
+
+    val expenses = expenseRepository.findBySheetId(sheetId, pagination)
     return expenses.map { expenseViewMapper.map(it) }
   }
 
