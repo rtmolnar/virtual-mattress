@@ -1,5 +1,6 @@
-package com.virtual.mattress.model
+package com.virtual.mattress.model.expense
 
+import com.virtual.mattress.model.sheet.Sheet
 import java.math.BigDecimal
 import java.time.LocalDateTime
 import java.util.*

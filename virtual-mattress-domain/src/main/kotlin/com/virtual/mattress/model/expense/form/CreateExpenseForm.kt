@@ -1,4 +1,4 @@
-package com.virtual.mattress.model.form
+package com.virtual.mattress.model.expense.form
 
 import java.math.BigDecimal
 import java.util.*

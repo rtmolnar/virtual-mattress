@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.virtual-mattress</groupId>
     <artifactId>virtual-mattress-application</artifactId>
-    <version>${project.parent.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>virtual-mattress-application</name>
     <properties>
         <java.version>11</java.version>

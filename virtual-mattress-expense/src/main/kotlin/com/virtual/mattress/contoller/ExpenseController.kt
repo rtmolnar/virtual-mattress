@@ -1,8 +1,8 @@
 package com.virtual.mattress.contoller
 
-import com.virtual.mattress.model.form.CreateExpenseForm
-import com.virtual.mattress.model.form.UpdateExpenseForm
-import com.virtual.mattress.model.view.ExpenseView
+import com.virtual.mattress.model.expense.form.CreateExpenseForm
+import com.virtual.mattress.model.expense.form.UpdateExpenseForm
+import com.virtual.mattress.model.expense.view.ExpenseView
 import com.virtual.mattress.service.ExpenseService
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
@@ -43,8 +43,8 @@ class ExpenseController(private val expenseService: ExpenseService) {
   @PostMapping
   @Transactional
   fun create(
-          @RequestBody @Valid createExpenseForm: CreateExpenseForm,
-          uriBuilder: UriComponentsBuilder
+      @RequestBody @Valid createExpenseForm: CreateExpenseForm,
+      uriBuilder: UriComponentsBuilder
   ): ResponseEntity<ExpenseView> {
     val expenseView = expenseService.create(createExpenseForm)
     val uri = uriBuilder.path("/expenses/${expenseView.id}").build().toUri()

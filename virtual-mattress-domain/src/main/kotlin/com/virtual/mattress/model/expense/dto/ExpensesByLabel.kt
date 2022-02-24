@@ -1,4 +1,4 @@
-package com.virtual.mattress.model.dto
+package com.virtual.mattress.model.expense.dto
 
 data class ExpensesByLabel (
     val label: String,

@@ -1,6 +1,6 @@
 package com.virtual.mattress.repository
 
-import com.virtual.mattress.model.Expense
+import com.virtual.mattress.model.expense.Expense
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.data.jpa.repository.JpaRepository

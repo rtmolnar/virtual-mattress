@@ -1,6 +1,6 @@
 package com.virtual.mattress.exception
 
-import com.virtual.mattress.model.view.ErrorView
+import com.virtual.mattress.model.expense.view.ErrorView
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.MethodArgumentNotValidException
 import org.springframework.web.bind.annotation.ExceptionHandler

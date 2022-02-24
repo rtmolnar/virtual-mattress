@@ -1,4 +1,4 @@
-package com.virtual.mattress.model.view
+package com.virtual.mattress.model.expense.view
 
 import java.time.LocalDateTime
 

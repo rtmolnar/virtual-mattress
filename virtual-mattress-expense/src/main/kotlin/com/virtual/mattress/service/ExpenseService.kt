@@ -3,9 +3,9 @@ package com.virtual.mattress.service
 import com.virtual.mattress.exception.NotFoundException
 import com.virtual.mattress.mapper.ExpenseFormMapper
 import com.virtual.mattress.mapper.ExpenseViewMapper
-import com.virtual.mattress.model.form.CreateExpenseForm
-import com.virtual.mattress.model.form.UpdateExpenseForm
-import com.virtual.mattress.model.view.ExpenseView
+import com.virtual.mattress.model.expense.form.CreateExpenseForm
+import com.virtual.mattress.model.expense.form.UpdateExpenseForm
+import com.virtual.mattress.model.expense.view.ExpenseView
 import com.virtual.mattress.repository.ExpenseRepository
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable

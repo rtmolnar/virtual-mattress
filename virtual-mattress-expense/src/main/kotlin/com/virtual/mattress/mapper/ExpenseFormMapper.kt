@@ -1,7 +1,8 @@
 package com.virtual.mattress.mapper
 
-import com.virtual.mattress.model.Expense
-import com.virtual.mattress.model.form.CreateExpenseForm
+import com.virtual.mattress.common.mapper.Mapper
+import com.virtual.mattress.model.expense.Expense
+import com.virtual.mattress.model.expense.form.CreateExpenseForm
 import com.virtual.mattress.service.SheetService
 import org.springframework.stereotype.Component
 
